@@ -10,11 +10,13 @@
     <h2>HTML Essential Training HTML Syntax</h2>
 </header>
 <nav>
-    <p><a href="#" title="Introduction to HTML">Introduction to HTML</a></p>
-    <p><a href="#" title="HTML syntax">HTML syntax</a></p>
-    <p><a href="#" title="Creating links">Creating links</a></p>
-    <p><a href="#reference.html" title="HTML Reference">HTML reference</a></p>
-    <p><a href="#" title="Next steps">Next steps</a></p>
+    <ul>
+        <li><a href="#" title="Introduction to HTML">Introduction to HTML</a></li>
+        <li><a href="#" title="HTML syntax">HTML syntax</a></li>
+        <li><a href="#" title="Creating links">Creating links</a></li>
+        <li><a href="#reference.html" title="HTML Reference">HTML reference</a></li>
+        <li><a href="#" title="Next steps">Next steps</a></li>
+    </ul>
 </nav>
 <article>
     <p>Because HTML is often the people&rsquo;s first experience with coding, there can be a fair amount of apprehension about
@@ -63,13 +65,14 @@
         non-standard way of rendering pages). For that reason alone, all HTML documents should be preceded by a doctype
         declaration. For more information on doctypes, and the history behind them, check out Mark Pilgrim&rsquo;s excellent
         section on doctypes from his <em>Dive Into HTML5</em> book. Here are some of the more common HTML doctypes:</p>
-    HTML 4.0 transitional
-    <pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;</code></pre>
-    XHTML 1.0 Transitional
-    <pre><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;</code></pre>
-    HTML5
-    <pre><code>&lt;!DOCTYPE HTML&gt;</code>
-    </pre>
+    <dl>
+        <dt>HTML 4.0 transitional</dt>
+        <dd><pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;</code></pre></dd>
+        <dt>XHTML 1.0 Transitional</dt>
+        <dd><pre><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;</code></pre></dd>
+        <dt>HTML5</dt>
+        <dd><pre><code>&lt;!DOCTYPE HTML&gt;</code></pre></dd>
+    </dl>
 </article>
 <article>
     <h2>Element attributes</h2>
@@ -134,7 +137,8 @@
         on Wikipedia.</p>
 </article>
 <footer>
-    <p>&copy; lynda.com | follow me and <a href="https://www.lynda.com/" target="_blank">lynda.com</a> on Twitter! @jameswillweb <a href="https://twitter.com/lynda?lang=en" target="_blank">@lyndadotcom</a></p>
+    <p>&copy; lynda.com | follow me and <a href="https://www.lynda.com/" target="_blank">lynda.com</a> on Twitter! @jameswillweb
+        <a href="https://twitter.com/lynda?lang=en" target="_blank">@lyndadotcom</a></p>
 </footer>
 </body>
 </html>
